@@ -3,9 +3,14 @@
 
 #include <iostream>
 
+int add(int a, int b) {
+	return a + b;
+}
+
 int main()
 {
 	std::cout << "Hello World version 2!\n";
+	std::cout << add(4, 6); //testing addfunctionbranch
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
